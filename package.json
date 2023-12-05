@@ -3,10 +3,15 @@
   "version": "1.0.50",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "bun run --watch src/index.ts"
+    "dev": "bun run --watch src/index.tsx"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@elysiajs/html": "^0.7.3",
+    "@libsql/client": "^0.4.0-pre.2",
+    "@prisma/adapter-libsql": "^5.6.0",
+    "@prisma/client": "^5.6.0",
+    "elysia": "latest",
+    "prisma": "^5.6.0"
   },
   "devDependencies": {
     "bun-types": "latest"
